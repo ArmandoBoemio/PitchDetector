@@ -8,7 +8,7 @@ from scipy import signal
 
 
 # load audio and sampling frequency from the wave file
-audio, Fs = librosa.load('./audio_samples/travel.wav')
+audio, Fs = librosa.load('./audio_samples/tuningfork.wav')
 
 Ts = 1/Fs   # sampling period
 N = len(audio)  # number of samples 

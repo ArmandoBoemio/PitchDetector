@@ -43,7 +43,7 @@ def clc(x, cl):
 
 def main():
     # load audio and sampling frequency
-    audio, Fs = librosa.load('./audio_samples/female_voice_1.wav')
+    audio, Fs = librosa.load('./audio_samples/tuningfork.wav')
 
     # trim silences at start and end
     audio, _ = librosa.effects.trim(audio, top_db=60)
